@@ -185,3 +185,154 @@ autopct='%1.1f%%', shadow=False, startangle=140)
 plt.title('job aligns with major')
 plt.axis('equal')
 plt.show()
+
+###Andrew
+
+
+
+#import matplotlib.pyplot as plt
+#from matplotlib.pyplot import figure
+#figure(num=None, figsize=(6, 6), dpi=80, facecolor='w', edgecolor='k')
+##figure(figsize=(1,1)) would create an inch-by-inch image, which would be 80-by-80 pixels unless you also give a different dpi argument.
+#
+## Data to plot
+#labels=['Signal Processing/COMMS','Photonics/Optics','Circuits','Computer CKT Design','Design Courses','Power','Theory Courses','ML/Controls','Programming Courses']
+#sizes = [10,6,9,7,8,8,6,4,14]
+#
+##labels = 'Python', 'C++', 'Ruby', 'Java'
+##sizes = [215, 130, 245, 210]
+#colors = ['gold', 'lightcyan', 'lightcoral', 'lightskyblue', 'pink', 'lightgreen', 'plum', 'lightgrey', 'lightblue']
+#explode = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1)  # explode 1st slice
+#
+## Plot
+#plt.pie(sizes, explode=explode, labels=labels, colors=colors,
+#autopct='%1.0f%%', shadow=False, startangle=140)
+#
+#plt.axis('equal')
+#plt.title('ECE Courses\n\n')
+#plt.show()
+
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import figure
+figure(num=None, figsize=(6, 6), dpi=80, facecolor='w', edgecolor='k')
+#figure(figsize=(1,1)) would create an inch-by-inch image, which would be 80-by-80 pixels unless you also give a different dpi argument.
+
+# Data to plot
+labels=['Other ECE courses','Programming Courses']
+sizes = [58,14]
+
+#labels = 'Python', 'C++', 'Ruby', 'Java'
+#sizes = [215, 130, 245, 210]
+colors = ['gold', 'lightblue']
+explode = (0.0, 0.1)  # explode 1st slice
+
+# Plot
+plt.pie(sizes, explode=explode, labels=labels, colors=colors,
+autopct='%1.0f%%', shadow=False, startangle=140)
+
+plt.axis('equal')
+
+plt.show()
+
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import figure
+figure(num=None, figsize=(6, 6), dpi=80, facecolor='w', edgecolor='k')
+#figure(figsize=(1,1)) would create an inch-by-inch image, which would be 80-by-80 pixels unless you also give a different dpi argument.
+
+# Data to plot
+labels=['Python', 'C/C++', 'Labview','Matlab']
+sizes = [8,4,1,1]
+
+#labels = 'Python', 'C++', 'Ruby', 'Java'
+#sizes = [215, 130, 245, 210]
+colors = ['lightskyblue','gold', 'lightcyan', 'lightcoral']
+explode = (0.1, 0.0, 0.0, 0.0)  # explode 1st slice
+
+# Plot
+plt.pie(sizes, explode=explode, labels=labels, colors=colors,
+autopct='%1.0f%%', shadow=False, startangle=140)
+
+plt.axis('equal')
+plt.title('Languages\n\n')
+plt.show()
+
+
+
+
+
+
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import figure
+figure(num=None, figsize=(6, 6), dpi=80, facecolor='w', edgecolor='k')
+#figure(figsize=(1,1)) would create an inch-by-inch image, which would be 80-by-80 pixels unless you also give a different dpi argument.
+
+# Data to plot
+labels=['Python','Matlab', 'Other MAE courses']
+sizes = [4,1,66]
+
+#labels = 'Python', 'C++', 'Ruby', 'Java'
+#sizes = [215, 130, 245, 210]
+colors = ['lightskyblue','pink','gold']
+explode = (0.1,0.1, 0.0)  # explode 1st slice
+
+# Plot
+plt.pie(sizes, explode=explode, labels=labels, colors=colors,
+autopct='%1.0f%%', shadow=False, startangle=140)
+
+plt.axis('equal')
+
+plt.show()
+
+
+
+
+
+
+
+
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import figure
+figure(num=None, figsize=(6, 6), dpi=80, facecolor='w', edgecolor='k')
+#figure(figsize=(1,1)) would create an inch-by-inch image, which would be 80-by-80 pixels unless you also give a different dpi argument.
+
+# Data to plot
+labels=['Higer level CSE Courses','Introduction Programming Courses']
+sizes = [63,13]
+
+#labels = 'Python', 'C++', 'Ruby', 'Java'
+#sizes = [215, 130, 245, 210]
+colors = ['gold', 'lightblue']
+explode = (0.0, 0.1)  # explode 1st slice
+
+# Plot
+plt.pie(sizes, explode=explode, labels=labels, colors=colors,
+autopct='%1.0f%%', shadow=False, startangle=140)
+
+plt.axis('equal')
+
+plt.show()
+
+#
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import figure
+figure(num=None, figsize=(6, 6), dpi=80, facecolor='w', edgecolor='k')
+#figure(figsize=(1,1)) would create an inch-by-inch image, which would be 80-by-80 pixels unless you also give a different dpi argument.
+
+# Data to plot
+labels=['Python', 'C/C++', 'Java','Matlab']
+sizes = [4,3,5,1]
+
+#labels = 'Python', 'C++', 'Ruby', 'Java'
+#sizes = [215, 130, 245, 210]
+colors = ['lightskyblue','gold', 'pink', 'lightcoral']
+explode = (0.0, 0.0, 0.1, 0.0)  # explode 1st slice
+
+# Plot
+plt.pie(sizes, explode=explode, labels=labels, colors=colors,
+autopct='%1.0f%%', shadow=False, startangle=140)
+
+plt.axis('equal')
+plt.title('Languages\n\n')
+plt.show()
+
+###Andrew
