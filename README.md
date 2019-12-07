@@ -14,13 +14,17 @@ crawData.ipynb is the crawler we used
 Our code including three parts
 # 1. Data crawler
 
-The file is crawData.ipynb
+The file is crawData.py
 
 modules including: 
 
 ```
 import csv
 from linkedin_api import Linkedin
+```
+
+```
+run command: python crawData.py
 ```
 
 In order to use this crawler, first:
