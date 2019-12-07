@@ -2,13 +2,15 @@
 # File structure
 143_data is all the public id used to craw data
 
-143CleanData.ipynb including the data cleaning part and data visualization part
+143CleanData.ipynb includes the data cleaning part and data visualization part
 
 143dataall.json contains all the raw data we collected
 
 ECE143.pptx is our presentation slides
 
 crawData.ipynb is the crawler we used
+
+FirstDegreComparison.ipynb includes the degree comparison part
 
 
 Our code including three parts
@@ -50,6 +52,12 @@ p is the public id in the file 143_data
 
 # 2. Data clean
 
+The file is dataclean.py
+
+```
+run command: python dataclean.py
+```
+
 modules including:
 ```
 import json
@@ -60,6 +68,12 @@ import difflib
 The data cleaning including check for major alignment, which also inevitably need some manual check
 
 # 3. Data Visualization
+
+The file is proj_script.py
+
+```
+run command: python proj_script.py
+```
 
 modules including:
 ```
