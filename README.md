@@ -1,4 +1,16 @@
 # UCSD-Programming-for-Data-Analysis
+# File structure
+143_data is all the public id used to craw data
+
+143CleanData.ipynb including the data cleaning part and data visualization part
+
+143dataall.json contains all the raw data we collected
+
+ECE143.pptx is our presentation slides
+
+crawData.ipynb is the crawler we used
+
+
 Our code including three parts
 # 1. Data crawler
 
