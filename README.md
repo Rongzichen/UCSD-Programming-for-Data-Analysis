@@ -8,14 +8,14 @@
 
 ECE143.pptx is our presentation slides
 
-crawData.ipynb is the crawler we used
+crawData.ipynb (crawData.py) is the crawler we used
 
 FirstDegreComparison.ipynb includes the degree comparison part
 
-proj_script.py contains all the functions
+dataclean.py is our data cleaning part
 
 
-Our code including three parts
+# Our code including three parts
 # 1. Data crawler
 
 The file is crawData.py
@@ -69,16 +69,13 @@ import difflib
 
 The data cleaning including check for major alignment, which also inevitably need some manual check
 
-# 3. Functions
+# 3. Data Visualization
 
 The file is proj_script.py
 
 ```
 run command: python proj_script.py
 ```
-
-
-# 4. Data Visualization
 
 modules including:
 ```
