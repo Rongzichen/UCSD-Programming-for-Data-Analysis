@@ -75,6 +75,10 @@ The data cleaning including check for major alignment, which also inevitably nee
 
 The file is proj_script.py
 
+```
+run command: python proj_script.py
+```
+
 modules including:
 ```
 import json
@@ -92,10 +96,6 @@ import plotly.figure_factory as ff
 import geopandas
 import pandas as pd
 from wordcloud import WordCloud
-```
-
-```
-run command: python proj_script.py
 ```
 
 # All the data visualization are in 143CleanData.ipynb
