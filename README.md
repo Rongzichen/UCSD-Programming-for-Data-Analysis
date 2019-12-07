@@ -14,6 +14,8 @@ FirstDegreComparison.ipynb includes the degree comparison part
 
 dataclean.py is our data cleaning part
 
+proj_script.py contains all the functions we used
+
 
 # Our code including three parts
 # 1. Data crawler
@@ -70,12 +72,6 @@ import difflib
 The data cleaning including check for major alignment, which also inevitably need some manual check
 
 # 3. Data Visualization
-
-The file is proj_script.py
-
-```
-run command: python proj_script.py
-```
 
 modules including:
 ```
