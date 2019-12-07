@@ -17,7 +17,7 @@ dataclean.py is our data cleaning part
 proj_script.py contains all the functions we used
 
 
-# Our code including three parts
+# Our code including four parts
 # 1. Data crawler
 
 The file is crawData.py
@@ -71,7 +71,9 @@ import difflib
 
 The data cleaning including check for major alignment, which also inevitably need some manual check
 
-# 3. Data Visualization
+# 3. Functions
+
+The file is proj_script.py
 
 modules including:
 ```
@@ -91,3 +93,9 @@ import geopandas
 import pandas as pd
 from wordcloud import WordCloud
 ```
+
+```
+run command: python proj_script.py
+```
+
+# All the data visualization are in 143CleanData.ipynb
