@@ -12,6 +12,8 @@ crawData.ipynb is the crawler we used
 
 FirstDegreComparison.ipynb includes the degree comparison part
 
+proj_script.py contains all the functions
+
 
 Our code including three parts
 # 1. Data crawler
@@ -67,13 +69,16 @@ import difflib
 
 The data cleaning including check for major alignment, which also inevitably need some manual check
 
-# 3. Data Visualization
+# 3. Functions
 
 The file is proj_script.py
 
 ```
 run command: python proj_script.py
 ```
+
+
+# 4. Data Visualization
 
 modules including:
 ```
