@@ -42,6 +42,8 @@ from collections import defaultdict
 import difflib
 ```
 
+The data cleaning including check for major alignment, which also inevitably need some manual check
+
 # 3. Data Visualization
 The file is 
 
