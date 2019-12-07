@@ -98,4 +98,4 @@ import pandas as pd
 from wordcloud import WordCloud
 ```
 
-# All the data visualization are in 143CleanData.ipynb
+# All the data visualizations and plots are in 143CleanData.ipynb
