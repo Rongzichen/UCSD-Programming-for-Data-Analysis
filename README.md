@@ -33,7 +33,6 @@ profile = api.get_profile(p)
 p is the public id in the file 143_data
 
 # 2. Data clean
-The file is 
 
 modules including:
 ```
@@ -45,8 +44,8 @@ import difflib
 The data cleaning including check for major alignment, which also inevitably need some manual check
 
 # 3. Data Visualization
-The file is 
 
+modules including:
 ```
 import json
 from collections import defaultdict
